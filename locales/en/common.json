@@ -1,0 +1,29 @@
+{
+    "header1":"About",
+    "header2":"Music",
+    "header3":"Tutorial",
+    "header4":"Contact",
+    "headerlang1":"English",
+    "headerlang2":"Spanish",
+
+    "biographyheader":"Biography",
+    "biographytext":"Sebastian Mateo is a DJ and producer from Lima, Peru. Inspired by EDM and Pop sounds, he is the leading producer of his country,having the support from the biggest DJs in the world such as David Guetta, Hardwell, Afrojack and many more, as well as having millions of streams across all the streaming platforms.",
+    
+    "giglistheader":"Giglist",
+    "giglistevent1":"Revealed Night ADE 2018 (Netherlands)",
+    "giglistevent2":"Astrology Festival 2019 (Peru)",
+    "giglistevent3":"Revealed Recordings Pop-Store ADE 2019 (Netherlands)",
+    "giglistevent4":"Revealed Recordings Presents: RevCraft 1.0 2021 (Virtual Performance)",
+
+    "tutorialsheader":"Tutorials",
+
+    "musicheader":"Music",
+
+    "supportedbyheader":"Supported By",
+
+    "footerheader1":"About",
+    "footerheader2":"Music",
+    "footerheader3":"Tutorial",
+    "footerheader4":"Contact",
+    "footertext":"@Copyright2022 | All rights reserved."
+}

@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "NeuePunk";
+		src: url("../public/fonts/NeuePlakExtendedSemiBold.woff2") format("woff2");
+		font-style: normal;
+	}
+	,
+	@font-face {
+		font-family: "NeuePunkTextLight";
+		src: url("../public/fonts/NeuePlakTextLight.woff2") format("woff2");
+		font-style: normal;
+	}
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+
+	font-family: NeuePunk, NeuePunkTextLight, -apple-system, BlinkMacSystemFont,
+		Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		color-scheme: dark;
+	}
+	body {
+		color: white;
+		background: black;
+	}
+}
+
+.purple-gradient {
+	background: linear-gradient(
+		85.83deg,
+		#101010 9.84%,
+		#140d0f 43.24%,
+		#22101f 101.34%,
+		#181614 116.63%
+	);
+}
+
+@media (min-width: 1024px) {
+	.ellipse-eleven {
+		left: 660px;
+	}
+}
+
+.ellipse1 {
+	position: absolute;
+	width: 197.13px;
+	height: 197.13px;
+	left: 1700.14px;
+	top: -71.76px;
+	background: #141418;
+	opacity: 0.6;
+	filter: blur(130px);
+}
+
+.ellipse2 {
+	position: absolute;
+	width: 456.94px;
+	height: 456.94px;
+	left: -169.62px;
+	top: -209.97px;
+	background: #ef466f;
+	opacity: 0.1;
+	filter: blur(262px);
+}
+
+.ellipse3 {
+	position: absolute;
+	width: 456.94px;
+	height: 456.94px;
+	left: -196.05px;
+	top: 583.81px;
+	background: #45b16b;
+	opacity: 0.2;
+	filter: blur(262px);
+}
+
+.ellipse4 {
+	position: absolute;
+	width: 456.94px;
+	height: 354.22px;
+	left: 445.93px;
+	top: 235.64px;
+	background: #1e1730;
+	opacity: 0.3;
+	filter: blur(124px);
+}
+
+.ellipse7 {
+	position: absolute;
+	width: 141.24px;
+	height: 141.24px;
+	left: -23.85px;
+	top: 388.2px;
+	background: #b7b3c2;
+	opacity: 0.5;
+	filter: blur(252px);
+}
+
+.ellipse8 {
+	position: absolute;
+	width: 61.18px;
+	height: 61.18px;
+	left: 510.88px;
+	top: 568.71px;
+	background: #ac999a;
+	opacity: 0.3;
+	filter: blur(62px);
+}
+
+.ellipse9 {
+	position: absolute;
+	width: 141.24px;
+	height: 141.24px;
+	left: 1171.74px;
+	top: 595.9px;
+	background: #221a19;
+	opacity: 0.51;
+	filter: blur(126px);
+}
+
+.ellipse10 {
+	position: absolute;
+	width: 159.36px;
+	height: 159.36px;
+	left: 1343.19px;
+	top: 487.14px;
+	background: #0f0f11;
+	filter: blur(118px);
+}
+
+.ellipse-eleven {
+	position: absolute;
+	width: 625px;
+	height: 625px;
+	left: 699px;
+	top: -96px;
+	background: #c1728d;
+	opacity: 0.15;
+	filter: blur(252px);
+}
+
+.ellipse-twelve {
+	position: absolute;
+	width: 711px;
+	height: 711px;
+	left: 1119px;
+	top: 86px;
+	background: #801786;
+	opacity: 0.3;
+	filter: blur(252px);
+}
+
+.card-bottom {
+	border-bottom: 1px solid white;
+}
